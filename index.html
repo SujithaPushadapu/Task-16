@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css task-6</title>
+    <style>
+        /* body{border: 1px solid black;} */
+        /* *{box-sizing:border-box} */
+        h3{text-align: center;}
+        .container{position: fixed;top: 30px;}   
+            
+        .s1,.s2,.s3,.s4{
+            height: 40px;width: 110px;
+            position:absolute; text-align: center;
+            left:-85px;border-radius:5px;
+        }
+        .container>:hover{left: 0px}
+        .s1{top: 0%;background-color: rgb(76, 163, 76);}
+        .s2{top: 45px;background-color:rgb(45, 121, 176);}
+        .s3{top: 90px;background-color: red;}
+        .s4{top: 135px;background-color: gray;}
+    </style>
+</head>
+<body>
+    <h3>Hoverable Sidenav Buttons</h3>
+    <div class="container">
+        <div class="s1">
+            <a href="#">box 1</a>
+        </div>
+        <div class="s2">
+            <a href="#">box 2</a>
+        </div>
+        <div class="s3">
+            <a href="#">box 3</a>
+        </div>
+        <div class="s4">
+            <a href="#">box 4</a>
+        </div>
+    </div>
+</body>
+</html>
